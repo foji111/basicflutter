@@ -23,9 +23,17 @@ class splashscreen extends StatefulWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber,
+      backgroundColor: Colors.white,
       body: Center(
-        child: (Text("welcome to flutter")),
+        child: (Text(
+          "welcome to flutter",
+          style: TextStyle(
+            color: Colors.blue,
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            fontStyle: FontStyle.italic,
+          ),
+        )),
       ),
     );
   }
